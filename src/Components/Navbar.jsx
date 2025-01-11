@@ -1,22 +1,32 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import closeIcon from "../images/closeIcon.png";
+import menuIcon from "../images/menuIcon.png";
 
-const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false)
+function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className='navbar'>
-            <a href="/" className='navbar_title'>Portifolio
-            </a>
-            <div className='navbar_menu'>
-                <ul className='navbar_menuItems'>
-                    <li><a href='#about'>About</a></li>
-                    <li><a href='#experience'>Experience</a></li>
-                    <li><a href='#projects'>Projects</a></li>
-                    <li><a href='#contact'>Contact</a></li>
-                </ul></div></nav >
-
-
-    )
-
+        <nav className="navbar">
+            <a href="/" className="navbar__title">Portfolio</a>
+            <div className="navbar__menu">
+                <img
+                    className="navbar__menuBtn"
+                    src={menuOpen ? closeIcon : menuIcon}
+                    alt="Menu Icon"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                />
+                <ul
+                    className={`navbar__menuItems ${menuOpen && "navbar__menuOpen"}`}
+                    onClick={() => setMenuOpen(false)}
+                >
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    );
 }
-export default Navbar
+
+export default Navbar;
