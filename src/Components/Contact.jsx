@@ -11,11 +11,10 @@ const Contact = () => {
             <li className="contact__link"><img src={emailIcon} alt='' /><a href='
             https://www.linkedin.com/'>kokaharsha2203</a></li>
             <li className="contact__link"><img src={linkedinIcon} alt='' /><a href='
-            '>linkedin.com/myname</a></li>
+            '>linkedin.com/KokaHarsha</a></li>
             <li className="contact__link"><img src={githubIcon} alt='' /><a href='
-           https://github.com/'>github.com/myname</a></li>
+           https://github.com/'>github.com/kokaHarsha</a></li>
         </ul></footer>
-
 }
 
 export default Contact
