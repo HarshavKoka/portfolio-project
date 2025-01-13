@@ -17,7 +17,7 @@ const About = () => {
                             <p>I'm frontend developer with basic knowledge</p></div></li><li className='about__item'>
                         <img src={cursorIcon} alt='' />
                         <div><h3>Fronntend Developer</h3>
-                            <p>I'm frontend developer with basic knowledge</p></div></li></ul></div>
+                            <p>I'm frontend</p></div></li></ul></div>
         </section>
     )
 }
