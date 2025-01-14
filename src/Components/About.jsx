@@ -13,8 +13,8 @@ const About = () => {
                     <div><h3>Fronntend Developer</h3>
                         <p>I'm frontend developer with basic knowledge</p></div></li><li className='about__item'>
                         <img src={serverIcon} alt='' />
-                        <div><h3>Backdoor Developer</h3>
-                            <p>I'm frontend developer with basic knowledge</p></div></li><li className='about__item'>
+                        <div><h3>Sql Developer</h3>
+                            <p>I'm sql developer with basic knowledge</p></div></li><li className='about__item'>
                         <img src={cursorIcon} alt='' />
                         <div><h3>Fronntend Developer</h3>
                             <p>I'm frontend</p></div></li></ul></div>
