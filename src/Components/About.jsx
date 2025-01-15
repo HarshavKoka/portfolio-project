@@ -16,8 +16,8 @@ const About = () => {
                         <div><h3>Sql Developer</h3>
                             <p>I'm sql developer with basic knowledge</p></div></li><li className='about__item'>
                         <img src={cursorIcon} alt='' />
-                        <div><h3>Fronntend Developer</h3>
-                            <p>I'm frontend</p></div></li></ul></div>
+                        <div><h3>Python developer</h3>
+                            <p>I'm python developer with basic knowledge </p></div></li></ul></div>
         </section>
     )
 }
