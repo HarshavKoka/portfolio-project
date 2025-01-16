@@ -9,7 +9,7 @@ const Contact = () => {
         <p>Feel free to reach out</p></div>
         <ul className="contact__links">
             <li className="contact__link"><img src={emailIcon} alt='' /><a href='
-            https://www.linkedin.com/'>kokaharsha2203</a></li>
+            https://www.linkedin.com/'>KokaHarshaVardhan</a></li>
             <li className="contact__link"><img src={linkedinIcon} alt='' /><a href='
             '>linkedin.com/KokaHarsha</a></li>
             <li className="contact__link"><img src={githubIcon} alt='' /><a href='
