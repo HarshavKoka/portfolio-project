@@ -10,11 +10,11 @@ const About = () => {
             <div className='about__content'><img src={aboutIcon} className='about__img' alt='' />
                 <ul className='about__items'><li className='about__item'>
                     <img src={cursorIcon} alt='' />
-                    <div><h3>Fronntend Developer</h3>
+                    <div><h3>Frontend Developer</h3>
                         <p>I'm frontend developer with basic knowledge</p></div></li><li className='about__item'>
                         <img src={serverIcon} alt='' />
                         <div><h3>Sql Developer</h3>
-                            <p>I'm sql developer with basic knowledge</p></div></li><li className='about__item'>
+                            <p>I'm Sql developer with basic knowledge</p></div></li><li className='about__item'>
                         <img src={cursorIcon} alt='' />
                         <div><h3>Python developer</h3>
                             <p>I'm python developer with basic knowledge </p></div></li></ul></div>
