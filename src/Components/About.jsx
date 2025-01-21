@@ -17,7 +17,7 @@ const About = () => {
                             <p>I'm Sql developer with database knowledge</p></div></li><li className='about__item'>
                         <img src={cursorIcon} alt='' />
                         <div><h3>Python developer</h3>
-                            <p>I'm python developer with basic knowledge </p></div></li></ul></div>
+                            <p>I'm python developer with basic coding knowledge </p></div></li></ul></div>
         </section>
     )
 }
