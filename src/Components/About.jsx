@@ -11,7 +11,7 @@ const About = () => {
                 <ul className='about__items'><li className='about__item'>
                     <img src={cursorIcon} alt='' />
                     <div><h3>Frontend Developer</h3>
-                        <p>I'm frontend developer with basic knowledge</p></div></li><li className='about__item'>
+                        <p>I'm Frontend developer with basic knowledge</p></div></li><li className='about__item'>
                         <img src={serverIcon} alt='' />
                         <div><h3>Sql Developer</h3>
                             <p>I'm Sql developer with database knowledge</p></div></li><li className='about__item'>
